@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git credential-manager *)",
+      "Bash(git -C \"c:/Users/91321/Desktop/STM32Project/STM32CodeDemo\" status)"
+    ]
+  }
+}
