@@ -11,6 +11,7 @@ Tests/Build/
 DebugConfig/
 __pycache__/
 *.uvguix.*
+*.uvoptx
 EnabledCompileCheck.*
 XmlCheck.*
 check.log
