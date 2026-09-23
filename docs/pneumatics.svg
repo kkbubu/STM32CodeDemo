@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="670" viewBox="0 0 1320 670">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#3278A4"/></marker></defs>
+<rect width="100%" height="100%" fill="#F5F7F9"/><g font-family="Microsoft YaHei, SimHei, sans-serif" fill="#183449">
+<text x="36" y="47" font-size="28" fill="#183449" font-weight="bold" text-anchor="start">机器人气路 · 外撑与内抓互斥</text>
+<text x="36" y="80" font-size="16" fill="#526B7A" font-weight="normal" text-anchor="start">沿管道由后向前排列；竖直安装前端朝上时 FWD 为上行，REV 为下行</text>
+<path d="M85 184 L1235 184" stroke="#B8C8D3" stroke-width="8" fill="none"/>
+<path d="M85 347 L1235 347" stroke="#B8C8D3" stroke-width="8" fill="none"/>
+<rect x="90" y="208" width="170" height="115" rx="12" fill="white" stroke="#3278A4" stroke-width="1.5"/>
+<text x="175.0" y="240" font-size="19" fill="#3278A4" font-weight="bold" text-anchor="middle">后端双向抓手</text>
+<text x="175.0" y="272" font-size="17" fill="#183449" font-weight="normal" text-anchor="middle">CH1 外撑</text>
+<text x="175.0" y="301" font-size="15" fill="#183449" font-weight="normal" text-anchor="middle">CH2 内抓</text>
+<rect x="307" y="208" width="170" height="115" rx="12" fill="white" stroke="#B87827" stroke-width="1.5"/>
+<text x="392.0" y="240" font-size="19" fill="#B87827" font-weight="bold" text-anchor="middle">后伸缩段</text>
+<text x="392.0" y="272" font-size="17" fill="#183449" font-weight="normal" text-anchor="middle">CH3 共用气路</text>
+<text x="392.0" y="301" font-size="15" fill="#183449" font-weight="normal" text-anchor="middle">11 路：CH3/8/9</text>
+<rect x="524" y="208" width="170" height="115" rx="12" fill="white" stroke="#268878" stroke-width="1.5"/>
+<text x="609.0" y="240" font-size="19" fill="#268878" font-weight="bold" text-anchor="middle">中间锚定</text>
+<text x="609.0" y="272" font-size="17" fill="#183449" font-weight="normal" text-anchor="middle">CH4 负压锚定</text>
+<text x="609.0" y="301" font-size="15" fill="#183449" font-weight="normal" text-anchor="middle">泄压松开</text>
+<rect x="741" y="208" width="170" height="115" rx="12" fill="white" stroke="#B87827" stroke-width="1.5"/>
+<text x="826.0" y="240" font-size="19" fill="#B87827" font-weight="bold" text-anchor="middle">前伸缩段</text>
+<text x="826.0" y="272" font-size="17" fill="#183449" font-weight="normal" text-anchor="middle">CH5 共用气路</text>
+<text x="826.0" y="301" font-size="15" fill="#183449" font-weight="normal" text-anchor="middle">11 路：CH5/10/11</text>
+<rect x="958" y="208" width="230" height="115" rx="12" fill="white" stroke="#3278A4" stroke-width="1.5"/>
+<text x="1073.0" y="240" font-size="19" fill="#3278A4" font-weight="bold" text-anchor="middle">前端双向抓手</text>
+<text x="1073.0" y="272" font-size="17" fill="#183449" font-weight="normal" text-anchor="middle">CH6 外撑</text>
+<text x="1073.0" y="301" font-size="15" fill="#183449" font-weight="normal" text-anchor="middle">CH7 内抓</text>
+<path d="M940 143 L1174 143" stroke="#3278A4" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="947" y="130" font-size="16" fill="#183449" font-weight="normal" text-anchor="start">FWD 方向 / 前端朝上</text>
+<rect x="36" y="390" width="594" height="226" rx="12" fill="white" stroke="#C8D4DC" stroke-width="1.5"/>
+<text x="60" y="429" font-size="21" fill="#183449" font-weight="bold" text-anchor="start">每一路二位三通阀</text>
+<rect x="66" y="454" width="236" height="67" rx="12" fill="#DCECE7" stroke="#268878" stroke-width="1.5"/>
+<text x="184" y="482" font-size="18" fill="#183449" font-weight="normal" text-anchor="middle">通电：腔体接负压</text>
+<text x="184" y="506" font-size="15" fill="#183449" font-weight="normal" text-anchor="middle">气流：腔体 → 阀 → 真空源</text>
+<rect x="330" y="454" width="270" height="67" rx="12" fill="#E9F1F6" stroke="#3278A4" stroke-width="1.5"/>
+<text x="465" y="482" font-size="18" fill="#183449" font-weight="normal" text-anchor="middle">断电：腔体通大气</text>
+<text x="465" y="506" font-size="15" fill="#183449" font-weight="normal" text-anchor="middle">大气口 → 阀 → 腔体</text>
+<text x="60" y="556" font-size="17" fill="#183449" font-weight="normal" text-anchor="start">真空源接公共歧管；各阀工作口接对应模块。</text>
+<text x="60" y="584" font-size="17" fill="#183449" font-weight="normal" text-anchor="start">实际口号按所用阀手册确认；保留大气泄放路径。</text>
+<rect x="650" y="390" width="634" height="226" rx="12" fill="white" stroke="#C8D4DC" stroke-width="1.5"/>
+<text x="674" y="429" font-size="21" fill="#183449" font-weight="bold" text-anchor="start">机械动作约束</text>
+<text x="674" y="468" font-size="17" fill="#183449" font-weight="normal" text-anchor="start">外撑 / 内抓：同一端不得同时通负压。</text>
+<text x="674" y="504" font-size="17" fill="#183449" font-weight="normal" text-anchor="start">伸缩段：负压缩短，通大气后依赖结构回弹伸长。</text>
+<text x="674" y="540" font-size="17" fill="#183449" font-weight="normal" text-anchor="start">中锚平移：前段缩短与后段伸长需要兼容行程。</text>
+<text x="674" y="576" font-size="17" fill="#183449" font-weight="normal" text-anchor="start">本图表示气路逻辑，不代表尺寸、阀口号或传感器布置。</text>
+</g></svg>
