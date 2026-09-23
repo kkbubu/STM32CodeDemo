@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1040" viewBox="0 0 1320 1040">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#3278A4"/></marker></defs>
+<rect width="100%" height="100%" fill="#F5F7F9"/><g font-family="Microsoft YaHei, SimHei, sans-serif" fill="#183449">
+<text x="36" y="47" font-size="28" fill="#183449" font-weight="bold" text-anchor="start">垂直爬行 · 锚点交接步态</text>
+<text x="36" y="80" font-size="16" fill="#526B7A" font-weight="normal" text-anchor="start">蓝色锚点为通负压外撑；灰色为释放。图中前端在右，实际竖直安装时前端朝上。</text>
+<rect x="36" y="115" width="1248" height="116" rx="12" fill="white" stroke="#C8D4DC" stroke-width="1.5"/>
+<text x="58" y="152" font-size="20" fill="#183449" font-weight="bold" text-anchor="start">1 释放前端 → 前段伸长</text>
+<text x="58" y="191" font-size="15" fill="#183449" font-weight="normal" text-anchor="start">后端 + 中锚承载；前段泄压回弹</text>
+<rect x="697" y="146" width="58" height="50" rx="8" fill="#3278A4" stroke="#3278A4" stroke-width="1.5"/>
+<text x="726" y="178" font-size="20" fill="white" font-weight="normal" text-anchor="middle">后</text>
+<polyline points="755,171 764.1,155 773.2,187 782.3,155 791.4,187 800.5,155 809.6,187 818.7,155 827.8,187 836.9,155 846,171" fill="none" stroke="#B87827" stroke-width="4"/>
+<rect x="846" y="146" width="58" height="50" rx="8" fill="#3278A4" stroke="#3278A4" stroke-width="1.5"/>
+<text x="875" y="178" font-size="20" fill="white" font-weight="normal" text-anchor="middle">中</text>
+<polyline points="904,171 918.5,155 933.0,187 947.5,155 962.0,187 976.5,155 991.0,187 1005.5,155 1020.0,187 1034.5,155 1049,171" fill="none" stroke="#B87827" stroke-width="4"/>
+<rect x="1049" y="146" width="58" height="50" rx="8" fill="#DFE5E9" stroke="#DFE5E9" stroke-width="1.5"/>
+<text x="1078" y="178" font-size="20" fill="#71838E" font-weight="normal" text-anchor="middle">前</text>
+<rect x="36" y="247" width="1248" height="116" rx="12" fill="white" stroke="#C8D4DC" stroke-width="1.5"/>
+<text x="58" y="284" font-size="20" fill="#183449" font-weight="bold" text-anchor="start">2 建立前端锚定</text>
+<text x="58" y="323" font-size="15" fill="#183449" font-weight="normal" text-anchor="start">保留后端与中锚，等待前端建立支撑</text>
+<rect x="697" y="278" width="58" height="50" rx="8" fill="#3278A4" stroke="#3278A4" stroke-width="1.5"/>
+<text x="726" y="310" font-size="20" fill="white" font-weight="normal" text-anchor="middle">后</text>
+<polyline points="755,303 764.1,287 773.2,319 782.3,287 791.4,319 800.5,287 809.6,319 818.7,287 827.8,319 836.9,287 846,303" fill="none" stroke="#B87827" stroke-width="4"/>
+<rect x="846" y="278" width="58" height="50" rx="8" fill="#3278A4" stroke="#3278A4" stroke-width="1.5"/>
+<text x="875" y="310" font-size="20" fill="white" font-weight="normal" text-anchor="middle">中</text>
+<polyline points="904,303 918.5,287 933.0,319 947.5,287 962.0,319 976.5,287 991.0,319 1005.5,287 1020.0,319 1034.5,287 1049,303" fill="none" stroke="#B87827" stroke-width="4"/>
+<rect x="1049" y="278" width="58" height="50" rx="8" fill="#3278A4" stroke="#3278A4" stroke-width="1.5"/>
+<text x="1078" y="310" font-size="20" fill="white" font-weight="normal" text-anchor="middle">前</text>
+<rect x="36" y="379" width="1248" height="116" rx="12" fill="white" stroke="#C8D4DC" stroke-width="1.5"/>
+<text x="58" y="416" font-size="20" fill="#183449" font-weight="bold" text-anchor="start">3 释放中锚 → 中锚前移</text>
+<text x="58" y="455" font-size="15" fill="#183449" font-weight="normal" text-anchor="start">前段吸气缩短，同时后段泄压伸长</text>
+<rect x="697" y="410" width="58" height="50" rx="8" fill="#3278A4" stroke="#3278A4" stroke-width="1.5"/>
+<text x="726" y="442" font-size="20" fill="white" font-weight="normal" text-anchor="middle">后</text>
+<polyline points="755,435 769.5,419 784.0,451 798.5,419 813.0,451 827.5,419 842.0,451 856.5,419 871.0,451 885.5,419 900,435" fill="none" stroke="#B87827" stroke-width="4"/>
+<rect x="900" y="410" width="58" height="50" rx="8" fill="#DFE5E9" stroke="#DFE5E9" stroke-width="1.5"/>
+<text x="929" y="442" font-size="20" fill="#71838E" font-weight="normal" text-anchor="middle">中</text>
+<polyline points="958,435 967.1,419 976.2,451 985.3,419 994.4,451 1003.5,419 1012.6,451 1021.7,419 1030.8,451 1039.9,419 1049,435" fill="none" stroke="#B87827" stroke-width="4"/>
+<rect x="1049" y="410" width="58" height="50" rx="8" fill="#3278A4" stroke="#3278A4" stroke-width="1.5"/>
+<text x="1078" y="442" font-size="20" fill="white" font-weight="normal" text-anchor="middle">前</text>
+<rect x="36" y="511" width="1248" height="116" rx="12" fill="white" stroke="#C8D4DC" stroke-width="1.5"/>
+<text x="58" y="548" font-size="20" fill="#183449" font-weight="bold" text-anchor="start">4 建立中间锚定</text>
+<text x="58" y="587" font-size="15" fill="#183449" font-weight="normal" text-anchor="start">保留前后两端，等待中间建立支撑</text>
+<rect x="697" y="542" width="58" height="50" rx="8" fill="#3278A4" stroke="#3278A4" stroke-width="1.5"/>
+<text x="726" y="574" font-size="20" fill="white" font-weight="normal" text-anchor="middle">后</text>
+<polyline points="755,567 769.5,551 784.0,583 798.5,551 813.0,583 827.5,551 842.0,583 856.5,551 871.0,583 885.5,551 900,567" fill="none" stroke="#B87827" stroke-width="4"/>
+<rect x="900" y="542" width="58" height="50" rx="8" fill="#3278A4" stroke="#3278A4" stroke-width="1.5"/>
+<text x="929" y="574" font-size="20" fill="white" font-weight="normal" text-anchor="middle">中</text>
+<polyline points="958,567 967.1,551 976.2,583 985.3,551 994.4,583 1003.5,551 1012.6,583 1021.7,551 1030.8,583 1039.9,551 1049,567" fill="none" stroke="#B87827" stroke-width="4"/>
+<rect x="1049" y="542" width="58" height="50" rx="8" fill="#3278A4" stroke="#3278A4" stroke-width="1.5"/>
+<text x="1078" y="574" font-size="20" fill="white" font-weight="normal" text-anchor="middle">前</text>
+<rect x="36" y="643" width="1248" height="116" rx="12" fill="white" stroke="#C8D4DC" stroke-width="1.5"/>
+<text x="58" y="680" font-size="20" fill="#183449" font-weight="bold" text-anchor="start">5 释放后端 → 后段缩短</text>
+<text x="58" y="719" font-size="15" fill="#183449" font-weight="normal" text-anchor="start">中锚 + 前端承载；后段吸气收拢后端</text>
+<rect x="751" y="674" width="58" height="50" rx="8" fill="#DFE5E9" stroke="#DFE5E9" stroke-width="1.5"/>
+<text x="780" y="706" font-size="20" fill="#71838E" font-weight="normal" text-anchor="middle">后</text>
+<polyline points="809,699 818.1,683 827.2,715 836.3,683 845.4,715 854.5,683 863.6,715 872.7,683 881.8,715 890.9,683 900,699" fill="none" stroke="#B87827" stroke-width="4"/>
+<rect x="900" y="674" width="58" height="50" rx="8" fill="#3278A4" stroke="#3278A4" stroke-width="1.5"/>
+<text x="929" y="706" font-size="20" fill="white" font-weight="normal" text-anchor="middle">中</text>
+<polyline points="958,699 967.1,683 976.2,715 985.3,683 994.4,715 1003.5,683 1012.6,715 1021.7,683 1030.8,715 1039.9,683 1049,699" fill="none" stroke="#B87827" stroke-width="4"/>
+<rect x="1049" y="674" width="58" height="50" rx="8" fill="#3278A4" stroke="#3278A4" stroke-width="1.5"/>
+<text x="1078" y="706" font-size="20" fill="white" font-weight="normal" text-anchor="middle">前</text>
+<rect x="36" y="775" width="1248" height="116" rx="12" fill="white" stroke="#C8D4DC" stroke-width="1.5"/>
+<text x="58" y="812" font-size="20" fill="#183449" font-weight="bold" text-anchor="start">6 建立后端锚定 → 循环</text>
+<text x="58" y="851" font-size="15" fill="#183449" font-weight="normal" text-anchor="start">三处外撑，两段缩短；下一周期从步骤 1 开始</text>
+<rect x="751" y="806" width="58" height="50" rx="8" fill="#3278A4" stroke="#3278A4" stroke-width="1.5"/>
+<text x="780" y="838" font-size="20" fill="white" font-weight="normal" text-anchor="middle">后</text>
+<polyline points="809,831 818.1,815 827.2,847 836.3,815 845.4,847 854.5,815 863.6,847 872.7,815 881.8,847 890.9,815 900,831" fill="none" stroke="#B87827" stroke-width="4"/>
+<rect x="900" y="806" width="58" height="50" rx="8" fill="#3278A4" stroke="#3278A4" stroke-width="1.5"/>
+<text x="929" y="838" font-size="20" fill="white" font-weight="normal" text-anchor="middle">中</text>
+<polyline points="958,831 967.1,815 976.2,847 985.3,815 994.4,847 1003.5,815 1012.6,847 1021.7,815 1030.8,847 1039.9,815 1049,831" fill="none" stroke="#B87827" stroke-width="4"/>
+<rect x="1049" y="806" width="58" height="50" rx="8" fill="#3278A4" stroke="#3278A4" stroke-width="1.5"/>
+<text x="1078" y="838" font-size="20" fill="white" font-weight="normal" text-anchor="middle">前</text>
+<rect x="36" y="920" width="1248" height="80" rx="12" fill="#FFF0D9" stroke="#D6AC65" stroke-width="1.5"/>
+<text x="58" y="952" font-size="17" fill="#183449" font-weight="normal" text-anchor="start">首次启动另含准备：三锚点建立 → 后段收缩准备 → 前段收缩准备；REV 按前后镜像执行。</text>
+<text x="58" y="979" font-size="17" fill="#183449" font-weight="normal" text-anchor="start">默认按时间交接，不代表真实抓牢；须验证回弹、承重与有效行程，并使用独立承重防坠绳。</text>
+</g></svg>

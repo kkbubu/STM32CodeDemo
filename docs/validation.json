@@ -1,0 +1,99 @@
+{
+  "verified_at_utc": "2026-09-21T23:32:52.464883+00:00",
+  "device": "STM32F103C8T6",
+  "default_hardware_lock": true,
+  "hardware_tested": false,
+  "targets": [
+    {
+      "target": "Worm7_Locked",
+      "sources": 22,
+      "flash_bytes": 9036,
+      "ram_bytes": 1328,
+      "errors": 0,
+      "warnings": 0,
+      "hex": {
+        "data_bytes": 9036,
+        "initial_stack": "0x20000530",
+        "reset_vector": "0x8000101",
+        "sha256": "5ad6b74586d42073426409d028dc685a81d1265cafad0009c10d5a557c32ac5b"
+      }
+    },
+    {
+      "target": "Worm11_Locked",
+      "sources": 22,
+      "flash_bytes": 9072,
+      "ram_bytes": 1328,
+      "errors": 0,
+      "warnings": 0,
+      "hex": {
+        "data_bytes": 9072,
+        "initial_stack": "0x20000530",
+        "reset_vector": "0x8000101",
+        "sha256": "196954152101de0491a3a77772fdaa7b669b1f9a1ab54dec0455201157946486"
+      }
+    }
+  ],
+  "enabled_compile_checks": [
+    {
+      "target": "Worm7_EnabledCheck",
+      "flash_bytes": 9160,
+      "ram_bytes": 1328,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "target": "Worm11_EnabledCheck",
+      "flash_bytes": 9196,
+      "ram_bytes": 1328,
+      "errors": 0,
+      "warnings": 0
+    }
+  ],
+  "host_test_runs": [
+    "PASS channels=7 confirmed=0 feedback=0 checks=65545",
+    "PASS channels=7 confirmed=1 feedback=0 checks=90029",
+    "PASS channels=7 confirmed=1 feedback=1 checks=90035",
+    "PASS channels=11 confirmed=0 feedback=0 checks=65545",
+    "PASS channels=11 confirmed=1 feedback=0 checks=90029",
+    "PASS channels=11 confirmed=1 feedback=1 checks=90035",
+    "PASS GPIO channels=7 active_high=0 checks=260",
+    "PASS GPIO channels=7 active_high=1 checks=260",
+    "PASS GPIO channels=11 active_high=0 checks=4100",
+    "PASS GPIO channels=11 active_high=1 checks=4100"
+  ],
+  "vendor_files_verified": 265,
+  "source_sha256": {
+    "User/AppConfig.h": "2a42f351f612437a43c9af808842f038265b2b1c4d3e74a618dfe8fcdda54287",
+    "User/Command.c": "a76ab2528d82826a4daadf69157bf4e569f46e6ee72c19551c7e7fba9d57a77a",
+    "User/Command.h": "10bd4dbc6f79995b0440cb12f6d5e086194638055ae0a53cbe2cfdd85303d2f2",
+    "User/main.c": "40d8a06c49ebfc3f3e3cd6d4adf0e99d5c06361d21989e99c37713f1377e4931",
+    "User/Pneumatic.c": "e32e8f80716967b05c39fac4826fe15bf8053825cfc7fc12d18f6352fd5b6f61",
+    "User/Pneumatic.h": "ea6e4a258e2d0ff50091eb5abda1feca75562739008751effd7b54035b785336",
+    "User/Robot.c": "a4410acbb503ea69767352f3fd92784079512f928635ff13dd49e25e732696ac",
+    "User/Robot.h": "8340a1a769f6d18a540668c5fdba21091f3c2a302febeee23d08d951da508c17",
+    "User/stm32f1xx_hal_conf.h": "e5c2fc41f12b97f3e2f648ec44fefed90efe26ce280e932076c82ac8ea613115",
+    "User/stm32f1xx_it.c": "6a7b02c9eb8e16a2133098785f3e3f4aecf4944135b91ce648a4691545056c55",
+    "Hardware/Board.c": "da8223870a4a5fd9bf1579011cab2650f515e407dc2f0038192fe4d83cbf2f4f",
+    "Hardware/Board.h": "a599cf613f4ad632efead894cb79b3072953a60acea24d7686900990dfc08a31",
+    "Hardware/Serial.c": "e781e4f71e823b9546b258017b57e2c82d28330a07c51da30289809e2c4fb7be",
+    "Hardware/Serial.h": "b761e93b1a4523849c921b1dfe2efa369768ef81e0fe91218c937c342d268724",
+    "System/System.c": "21260a787453b798407457ccfa966da9788388f6d848f086cf51bf376cdd37a6",
+    "System/System.h": "87d969353a669f91714b6e1272bf4c84765ab8acd596d4fbc5d9ce6bf6bb7952",
+    "tools/build.ps1": "1d2fdabaced6811868e2b7b6b92e36840da7e174f1b994b3b339e65f8af43d38",
+    "tools/check_enabled.ps1": "54c5aefd8295e4649f602079487869cf1fa401079e29d62a6e122a07d839816b",
+    "tools/fetch_vendor.py": "a91c9c3c5d07ff367687c4b42727861efb32bfc56905feec7705214c5d068113",
+    "tools/make_figures.py": "7d2266bdcb3e2139ffa10d005d0b5e5f8b9e45c21f7591565915d2d0d3d0e877",
+    "tools/package.py": "5f19f87e0496094808efc94301172caef0d4897efd25c460750cc030aa347dfe",
+    "tools/serial_console.py": "24da9d5aabce58cd075190823960f19c1a4de891360c39af4adf2fe8bad408ae",
+    "tools/test.ps1": "8660971c8c92e05e3794d0a9d5609f77f1fe70bf6fdc762418c8022f3f6f126d",
+    "tools/validate_project.py": "022b23da7a0c6b07293b5e0aa6228e1684025e38cb2f9eafbbed8b288795ea7d",
+    "Tests/test_board.c": "8aeeccf0d43f4d8c28c3a4e804adb33c4d835f5666cb671ca3f84e1b17c36f01",
+    "Tests/test_robot.c": "43fb4644c567e479b29beba16ae3a2d4cdd4380d1443acbcd9828f566af27391",
+    "Tests/stubs/stm32f1xx_hal.h": "dd0be9d6c104a48442b50da95f993c0b73c477fad994a454a29fff4b1e038c1f"
+  },
+  "limitations": [
+    "未烧录或运行真实芯片",
+    "未验证机械抓力及垂直爬行",
+    "反馈测试使用构造输入，不等同于传感器验证"
+  ]
+}

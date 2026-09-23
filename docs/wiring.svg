@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1130" viewBox="0 0 1320 1130">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#3278A4"/></marker></defs>
+<rect width="100%" height="100%" fill="#F5F7F9"/><g font-family="Microsoft YaHei, SimHei, sans-serif" fill="#183449">
+<text x="36" y="47" font-size="28" fill="#183449" font-weight="bold" text-anchor="start">电气接线 · STM32F103C8T6 / HAL</text>
+<text x="36" y="80" font-size="16" fill="#526B7A" font-weight="normal" text-anchor="start">7 路当前配置 · 11 路预留 · 默认高电平 MOS · 线圈使用独立额定电源</text>
+<rect x="36" y="112" width="270" height="584" rx="12" fill="#E9F1F6" stroke="#C8D4DC" stroke-width="1.5"/>
+<text x="60" y="150" font-size="22" fill="#183449" font-weight="bold" text-anchor="start">STM32F103C8T6</text>
+<text x="60" y="180" font-size="16" fill="#183449" font-weight="normal" text-anchor="start">64 MHz HSI PLL</text>
+<text x="236" y="229" font-size="17" fill="#3278A4" font-weight="normal" text-anchor="end">PB0</text>
+<path d="M250 223 L346 223" stroke="#3278A4" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="350" y="208" width="104" height="30" rx="5" fill="white" stroke="#3278A4" stroke-width="1.5"/>
+<text x="402" y="229" font-size="14" fill="#183449" font-weight="normal" text-anchor="middle">MOS CH1</text>
+<path d="M456 223 L493 223" stroke="#3278A4" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="510" y="229" font-size="17" fill="#3278A4" font-weight="normal" text-anchor="start">后端向外锚定</text>
+<text x="236" y="269" font-size="17" fill="#3278A4" font-weight="normal" text-anchor="end">PB1</text>
+<path d="M250 263 L346 263" stroke="#3278A4" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="350" y="248" width="104" height="30" rx="5" fill="white" stroke="#3278A4" stroke-width="1.5"/>
+<text x="402" y="269" font-size="14" fill="#183449" font-weight="normal" text-anchor="middle">MOS CH2</text>
+<path d="M456 263 L493 263" stroke="#3278A4" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="510" y="269" font-size="17" fill="#3278A4" font-weight="normal" text-anchor="start">后端向内抓取</text>
+<text x="236" y="309" font-size="17" fill="#3278A4" font-weight="normal" text-anchor="end">PB5</text>
+<path d="M250 303 L346 303" stroke="#3278A4" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="350" y="288" width="104" height="30" rx="5" fill="white" stroke="#3278A4" stroke-width="1.5"/>
+<text x="402" y="309" font-size="14" fill="#183449" font-weight="normal" text-anchor="middle">MOS CH3</text>
+<path d="M456 303 L493 303" stroke="#3278A4" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="510" y="309" font-size="17" fill="#3278A4" font-weight="normal" text-anchor="start">后伸缩 / 第 1 腔</text>
+<text x="236" y="349" font-size="17" fill="#3278A4" font-weight="normal" text-anchor="end">PB6</text>
+<path d="M250 343 L346 343" stroke="#3278A4" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="350" y="328" width="104" height="30" rx="5" fill="white" stroke="#3278A4" stroke-width="1.5"/>
+<text x="402" y="349" font-size="14" fill="#183449" font-weight="normal" text-anchor="middle">MOS CH4</text>
+<path d="M456 343 L493 343" stroke="#3278A4" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="510" y="349" font-size="17" fill="#3278A4" font-weight="normal" text-anchor="start">中间锚定</text>
+<text x="236" y="389" font-size="17" fill="#3278A4" font-weight="normal" text-anchor="end">PB7</text>
+<path d="M250 383 L346 383" stroke="#3278A4" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="350" y="368" width="104" height="30" rx="5" fill="white" stroke="#3278A4" stroke-width="1.5"/>
+<text x="402" y="389" font-size="14" fill="#183449" font-weight="normal" text-anchor="middle">MOS CH5</text>
+<path d="M456 383 L493 383" stroke="#3278A4" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="510" y="389" font-size="17" fill="#3278A4" font-weight="normal" text-anchor="start">前伸缩 / 第 1 腔</text>
+<text x="236" y="429" font-size="17" fill="#3278A4" font-weight="normal" text-anchor="end">PB8</text>
+<path d="M250 423 L346 423" stroke="#3278A4" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="350" y="408" width="104" height="30" rx="5" fill="white" stroke="#3278A4" stroke-width="1.5"/>
+<text x="402" y="429" font-size="14" fill="#183449" font-weight="normal" text-anchor="middle">MOS CH6</text>
+<path d="M456 423 L493 423" stroke="#3278A4" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="510" y="429" font-size="17" fill="#3278A4" font-weight="normal" text-anchor="start">前端向外锚定</text>
+<text x="236" y="469" font-size="17" fill="#3278A4" font-weight="normal" text-anchor="end">PB9</text>
+<path d="M250 463 L346 463" stroke="#3278A4" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="350" y="448" width="104" height="30" rx="5" fill="white" stroke="#3278A4" stroke-width="1.5"/>
+<text x="402" y="469" font-size="14" fill="#183449" font-weight="normal" text-anchor="middle">MOS CH7</text>
+<path d="M456 463 L493 463" stroke="#3278A4" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="510" y="469" font-size="17" fill="#3278A4" font-weight="normal" text-anchor="start">前端向内抓取</text>
+<text x="236" y="509" font-size="17" fill="#B87827" font-weight="normal" text-anchor="end">PB10</text>
+<path d="M250 503 L346 503" stroke="#B87827" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="350" y="488" width="104" height="30" rx="5" fill="white" stroke="#B87827" stroke-width="1.5"/>
+<text x="402" y="509" font-size="14" fill="#183449" font-weight="normal" text-anchor="middle">MOS CH8</text>
+<path d="M456 503 L493 503" stroke="#B87827" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="510" y="509" font-size="17" fill="#B87827" font-weight="normal" text-anchor="start">后伸缩 / 第 2 腔</text>
+<text x="236" y="549" font-size="17" fill="#B87827" font-weight="normal" text-anchor="end">PB11</text>
+<path d="M250 543 L346 543" stroke="#B87827" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="350" y="528" width="104" height="30" rx="5" fill="white" stroke="#B87827" stroke-width="1.5"/>
+<text x="402" y="549" font-size="14" fill="#183449" font-weight="normal" text-anchor="middle">MOS CH9</text>
+<path d="M456 543 L493 543" stroke="#B87827" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="510" y="549" font-size="17" fill="#B87827" font-weight="normal" text-anchor="start">后伸缩 / 第 3 腔</text>
+<text x="236" y="589" font-size="17" fill="#B87827" font-weight="normal" text-anchor="end">PB12</text>
+<path d="M250 583 L346 583" stroke="#B87827" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="350" y="568" width="104" height="30" rx="5" fill="white" stroke="#B87827" stroke-width="1.5"/>
+<text x="402" y="589" font-size="14" fill="#183449" font-weight="normal" text-anchor="middle">MOS CH10</text>
+<path d="M456 583 L493 583" stroke="#B87827" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="510" y="589" font-size="17" fill="#B87827" font-weight="normal" text-anchor="start">前伸缩 / 第 2 腔</text>
+<text x="236" y="629" font-size="17" fill="#B87827" font-weight="normal" text-anchor="end">PB13</text>
+<path d="M250 623 L346 623" stroke="#B87827" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="350" y="608" width="104" height="30" rx="5" fill="white" stroke="#B87827" stroke-width="1.5"/>
+<text x="402" y="629" font-size="14" fill="#183449" font-weight="normal" text-anchor="middle">MOS CH11</text>
+<path d="M456 623 L493 623" stroke="#B87827" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="510" y="629" font-size="17" fill="#B87827" font-weight="normal" text-anchor="start">前伸缩 / 第 3 腔</text>
+<rect x="782" y="112" width="502" height="336" rx="12" fill="white" stroke="#C8D4DC" stroke-width="1.5"/>
+<text x="806" y="150" font-size="21" fill="#183449" font-weight="bold" text-anchor="start">控制与下载</text>
+<text x="806" y="187" font-size="16" fill="#183449" font-weight="normal" text-anchor="start">PA9 TX → USB-TTL RX / PA10 RX ← TX</text>
+<text x="806" y="221" font-size="16" fill="#183449" font-weight="normal" text-anchor="start">USB-TTL：3.3 V 电平，共地，115200 8N1</text>
+<text x="806" y="255" font-size="16" fill="#183449" font-weight="normal" text-anchor="start">PA8 → 许可开关 → GND（闭合允许运行）</text>
+<text x="806" y="289" font-size="16" fill="#183449" font-weight="normal" text-anchor="start">PB14 → 常闭停止回路 → GND</text>
+<text x="806" y="323" font-size="16" fill="#183449" font-weight="normal" text-anchor="start">断线或按下：冻结输出，不自动泄压</text>
+<text x="806" y="357" font-size="16" fill="#183449" font-weight="normal" text-anchor="start">PA13 / PA14 → ST-Link SWDIO / SWCLK</text>
+<text x="806" y="391" font-size="16" fill="#183449" font-weight="normal" text-anchor="start">BOOT0 下拉；PC13：状态 LED</text>
+<rect x="782" y="466" width="502" height="230" rx="12" fill="white" stroke="#C8D4DC" stroke-width="1.5"/>
+<text x="806" y="504" font-size="21" fill="#183449" font-weight="bold" text-anchor="start">可选反馈 · 当前关闭</text>
+<text x="806" y="539" font-size="16" fill="#183449" font-weight="normal" text-anchor="start">PA0 / PA1 / PA2：后 / 中 / 前锚定就绪</text>
+<text x="806" y="568" font-size="16" fill="#183449" font-weight="normal" text-anchor="start">PA3：公共负压就绪</text>
+<text x="806" y="597" font-size="16" fill="#183449" font-weight="normal" text-anchor="start">现有接口接外部处理后的低有效数字信号</text>
+<text x="806" y="626" font-size="16" fill="#183449" font-weight="normal" text-anchor="start">模拟传感器须另做 ADC、标定与故障诊断</text>
+<text x="806" y="655" font-size="16" fill="#183449" font-weight="normal" text-anchor="start">压力就绪不等于机械抓持力已确认</text>
+<rect x="36" y="720" width="1248" height="283" rx="12" fill="white" stroke="#C8D4DC" stroke-width="1.5"/>
+<text x="60" y="759" font-size="21" fill="#183449" font-weight="bold" text-anchor="start">单通道裸 N-MOS 低侧驱动示意（11 路相同）</text>
+<text x="68" y="832" font-size="18" fill="#183449" font-weight="normal" text-anchor="start">GPIO</text>
+<path d="M132 825 L177 825" stroke="#3278A4" stroke-width="3" fill="none"/>
+<rect x="178" y="813" width="75" height="24" rx="1" fill="#EEF3F7" stroke="#3278A4" stroke-width="1.5"/>
+<text x="190" y="803" font-size="14" fill="#183449" font-weight="normal" text-anchor="start">栅极电阻</text>
+<path d="M254 825 L317 825" stroke="#3278A4" stroke-width="3" fill="none"/>
+<path d="M290 825 L290 901" stroke="#3278A4" stroke-width="3" fill="none"/>
+<rect x="280" y="857" width="20" height="38" rx="0" fill="white" stroke="#3278A4" stroke-width="1.5"/>
+<text x="208" y="879" font-size="14" fill="#183449" font-weight="normal" text-anchor="start">10 kΩ</text>
+<path d="M290 901 L290 943" stroke="#3278A4" stroke-width="3" fill="none"/>
+<path d="M317 800 L317 854" stroke="#183449" stroke-width="3" fill="none"/>
+<path d="M327 808 L327 847" stroke="#183449" stroke-width="3" fill="none"/>
+<path d="M327 808 L368 808" stroke="#183449" stroke-width="3" fill="none"/>
+<path d="M368 808 L368 787" stroke="#183449" stroke-width="3" fill="none"/>
+<path d="M327 847 L368 847" stroke="#183449" stroke-width="3" fill="none"/>
+<path d="M368 847 L368 943" stroke="#183449" stroke-width="3" fill="none"/>
+<text x="341" y="836" font-size="15" fill="#183449" font-weight="normal" text-anchor="start">MOS</text>
+<text x="302" y="790" font-size="14" fill="#183449" font-weight="normal" text-anchor="start">G</text>
+<text x="376" y="808" font-size="14" fill="#183449" font-weight="normal" text-anchor="start">D</text>
+<text x="376" y="874" font-size="14" fill="#183449" font-weight="normal" text-anchor="start">S</text>
+<path d="M368 787 L479 787" stroke="#183449" stroke-width="3" fill="none"/>
+<rect x="480" y="769" width="118" height="38" rx="4" fill="#DCECE7" stroke="#268878" stroke-width="1.5"/>
+<text x="499" y="794" font-size="17" fill="#183449" font-weight="normal" text-anchor="start">阀线圈</text>
+<path d="M598 787 L653 787" stroke="#183449" stroke-width="3" fill="none"/>
+<text x="668" y="794" font-size="18" fill="#183449" font-weight="normal" text-anchor="start">+V 阀电源</text>
+<path d="M445 787 L445 850" stroke="#183449" stroke-width="3" fill="none"/>
+<path d="M624 787 L624 850" stroke="#183449" stroke-width="3" fill="none"/>
+<path d="M445 850 L515 850" stroke="#183449" stroke-width="3" fill="none"/>
+<path d="M556 850 L624 850" stroke="#183449" stroke-width="3" fill="none"/>
+<path d="M515 835 L515 865 L544 850 Z" fill="none" stroke="#183449" stroke-width="2"/><path d="M550 833 L550 867" stroke="#183449" stroke-width="3"/>
+<text x="454" y="890" font-size="16" fill="#183449" font-weight="normal" text-anchor="start">续流二极管：阴极接 +V</text>
+<path d="M110 943 L710 943" stroke="#183449" stroke-width="3" fill="none"/>
+<text x="110" y="977" font-size="17" fill="#183449" font-weight="normal" text-anchor="start">公共 GND：STM32、MOS S、阀电源负极</text>
+<text x="806" y="807" font-size="17" fill="#183449" font-weight="normal" text-anchor="start">• 栅极在 3.3 V 下可靠导通</text>
+<text x="806" y="843" font-size="17" fill="#183449" font-weight="normal" text-anchor="start">• 线圈电源电压与额定电压一致</text>
+<text x="806" y="879" font-size="17" fill="#183449" font-weight="normal" text-anchor="start">• 有驱动模块时核对内置续流与极性</text>
+<text x="806" y="915" font-size="17" fill="#183449" font-weight="normal" text-anchor="start">• MCU 复位期间依靠外部电阻关断</text>
+<text x="806" y="951" font-size="17" fill="#183449" font-weight="normal" text-anchor="start">• 线圈需允许持续通电</text>
+<rect x="36" y="1024" width="1248" height="69" rx="12" fill="#FFF0D9" stroke="#D6AC65" stroke-width="1.5"/>
+<text x="60" y="1065" font-size="18" fill="#895715" font-weight="normal" text-anchor="start">掉电 / 复位会使阀泄压；必须用独立防坠措施。软件 STOP 保持电平，不能保证机械立即停止。</text>
+</g></svg>

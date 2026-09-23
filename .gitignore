@@ -1,3 +1,24 @@
-build
+# 构建中间产物保留在本机；交付归档仅收录固件和验证证据。
+Objects/**
+!Objects/*/
+!Objects/*/*.hex
+!Objects/*/build.log
+Listings/**
+!Listings/*/
+!Listings/*/*.map
+Tests/*.exe
+Tests/Build/
+DebugConfig/
+__pycache__/
+*.uvguix.*
+*.uvoptx
+EnabledCompileCheck.*
+XmlCheck.*
+check.log
+xmlcheck.log
+enabled-check.log
+
+# STM32CubeMX / CMake 本地构建与编辑器状态。
+build/
 mx.scratch
-!.settings
+!.settings/

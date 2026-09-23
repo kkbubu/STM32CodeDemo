@@ -1,0 +1,10 @@
+PASS channels=7 confirmed=0 feedback=0 checks=65545
+PASS channels=7 confirmed=1 feedback=0 checks=90029
+PASS channels=7 confirmed=1 feedback=1 checks=90035
+PASS channels=11 confirmed=0 feedback=0 checks=65545
+PASS channels=11 confirmed=1 feedback=0 checks=90029
+PASS channels=11 confirmed=1 feedback=1 checks=90035
+PASS GPIO channels=7 active_high=0 checks=260
+PASS GPIO channels=7 active_high=1 checks=260
+PASS GPIO channels=11 active_high=0 checks=4100
+PASS GPIO channels=11 active_high=1 checks=4100
